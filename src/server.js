@@ -116,7 +116,7 @@ app.post("/lancamentos", async (req, res) => {
 // 404
 app.use((_req, res) => res.status(404).json({ error: "rota não encontrada" }));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3003;
 app.listen(PORT, () => {
   console.log(`🚀 API on http://caio.vps-kinghost.net:${PORT}`);
 });
