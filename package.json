@@ -1,0 +1,17 @@
+{
+  "name": "painel-gestao",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "migrate": "node db/migrate.js",
+    "lint": "echo \"(add your linter here)\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.12.0"
+  }
+}
