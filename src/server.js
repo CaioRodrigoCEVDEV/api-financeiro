@@ -118,5 +118,5 @@ app.use((_req, res) => res.status(404).json({ error: "rota não encontrada" }));
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 API on http://localhost:${PORT}`);
+  console.log(`🚀 API on http://orderup.com.br:${PORT}`);
 });
